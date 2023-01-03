@@ -87,38 +87,81 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* ---- Base styles ---- */
+/* ---- Base lay-out styles ---- */
 
 body {
   width: 100%;
 }
 
-header, main, footer {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.content-wrapper {
+.content-wrapper-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1em;
+  width: 90%;
+  margin: 0 auto;
 }
 
-/* ---- Header/footer base styles ---- */
+.content-wrapper-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ---- Header/footer base lay-out styles ---- */
+
+header .logo img{
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 60%;
+  width: 90%;
   list-style: none;
 }
 
-.footer-items {
-  background: lightblue;
+footer h5, footer address, footer p {
+  text-align: center;
 }
-  
+
+.social-icons {
+  display: flex;
+  gap: 1em;
+}
+
+/* ---- Main base lay-out styles ---- */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.features-items p {
+  text-align: center;
+}
+
+.review-image {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
