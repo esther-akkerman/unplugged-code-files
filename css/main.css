@@ -129,7 +129,7 @@ header nav {
   list-style: none;
 }
 
-footer h5, footer address, footer p {
+footer h5, footer address, footer p, footer h4 {
   text-align: center;
 }
 
@@ -138,7 +138,7 @@ footer h5, footer address, footer p {
   gap: 1em;
 }
 
-/* ---- Main base lay-out styles ---- */
+/* ---- Homepage main base lay-out styles ---- */
 
 .form {
   display: flex;
