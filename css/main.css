@@ -611,13 +611,90 @@
 
     /* ---- Base styles ---- */
 
+    .content-wrapper-center, .content-wrapper-left {
+      width: 70%;
+    }
+    
     /* ---- Header/footer styles ---- */
+    
+    header .content-wrapper-center {
+      margin-left: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
 
-    /* ---- Text styles ---- 
+    header .logo img {
+      margin: -40px;   /* -- Temporary fix - find problem why logo is not properly aligned -- */
+    }
+
+    footer .contact {
+      width: 30%;     /* -- Same as header, why not aligned? -- */
+    }
+
+    /* ---- Text styles ---- */
+
+    h1 {
+      font-size: 3.75em;
+      line-height: 60px;
+    }
+    
+    h2 {
+      font-size: 1.875em;
+    }
+  
+    .mission h3 .faq-section h3 {
+      font-size: 3em;
+    }
+
+    .faq-section h2,{
+      font-size: 1.125em;
+      line-height: 18px;
+    }
 
     /* ---- Homepage styles ---- */
 
+    aside .content-wrapper-left {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      gap: 80px;
+      justify-content: space-evenly;
+    }
+    
+    .form-description, .form {
+      width: 35%;
+    }
+
+    input[type=text] {
+      margin-bottom: 20px;
+    }
+  
+    .features .content-wrapper-center {
+      gap: 40px;
+    }
+    
+    .features-items {
+      width: 30%;
+      gap: 30px;
+    }
+  
+    .reviews .content-wrapper-left {
+      justify-content: space-between;  
+      padding-bottom: 120px;
+    }
+
+    .reviews h3 {
+      width: 100%;
+    }
+
+    .review-text {
+      width: 45%;
+    }
+
     /* ---- About page styles ---- */
+
+    .map-container {
+      padding-bottom: 37.5%;
+    }
 
     /* ---- FAQ page styles ---- */
   }
