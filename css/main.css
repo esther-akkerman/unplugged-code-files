@@ -627,6 +627,10 @@
       margin: -40px;   /* -- Temporary fix - find problem why logo is not properly aligned -- */
     }
 
+    header nav {
+      padding-top: 8px;
+    }
+
     footer .contact {
       width: 30%;     /* -- Same as header, why not aligned? -- */
     }
